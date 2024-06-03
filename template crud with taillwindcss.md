@@ -82,6 +82,9 @@ rails generate scaffold User name:string age:integer birthday:date bio:text heig
                 class: "text-red-500 hover:underline" %>
 ```
 
+. View Index
+<img src="public/images/index.jpeg" alt="index">
+
 **Crie o template para a view `new`:**
 
     Dentro do diretório `lib/templates/erb/scaffold`, crie um arquivo chamado `new.html.erb`, ou atualize o existente: com o seguinte conteúdo:
@@ -184,6 +187,12 @@ rails generate scaffold User name:string age:integer birthday:date bio:text heig
    - Gera espaço para mostra os erros, quando houver
    - Utiliza condicionais para identificar o tipo de atributo e gerar o campo de input apropriado, mantendo a estilização com TailwindCSS.
 
+. View Form
+<img src="public/images/form.jpeg" alt="form">
+
+. View Form com erro
+<img src="public/images/form2.jpeg" alt="form com erro">
+
 **Crie o template para a view `show`:**
 
     Dentro do diretório `lib/templates/erb/scaffold`, crie um arquivo chamado `show.html.erb`, ou atualize o existente: com o seguinte conteúdo:
@@ -246,3 +255,7 @@ rails generate scaffold User name:string age:integer birthday:date bio:text heig
 1. **Título**: Exibe o título da página com o nome do modelo.
 2. **Tabela**: Cria um article para exibir cada atributo do modelo.
    - **Label e Valor**: Para cada atributo, exibe seu nome humanizado na coluna da esquerda e seu valor na coluna da direita.
+
+. View Show
+
+  <img src="public/images/show.jpeg" alt="show">
